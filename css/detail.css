@@ -1,0 +1,96 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    background-color: pink;
+}
+.nav-links a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration : none;
+    letter-spacing : 0.2em;
+}
+
+.nav-links li{
+    display: inline;
+    margin : 0 0.75em;
+    margin : 1em 2em 3em 4em;
+    list-style-type: none; 
+}
+
+.cool-link::after{
+    color: white;
+}
+
+.cool-link:hover::after{
+    color : white;
+}
+
+table {
+    border: 3px solid pink;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top : 3em
+}
+
+th, td{
+    padding : 10em;
+}
+
+.row {
+    border: 3px solid pink;
+    display: flex; 
+    flex-wrap: wrap;
+    width:auto;
+    height: auto;
+    margin : 1em;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+.column{
+    background-color: black;
+    /* border: 3px solid pink; */
+    text-align: center;
+    margin : 1em;
+    color : pink;
+    width: 400px; 
+    /* background-color: blue; */
+}
+
+p{
+    text-align: left;
+}
+
+.tombol{
+    letter-spacing: 2px;
+    font-style: bold;
+    background-color: pink;
+    text-transform: uppercase;
+    color : black;
+    margin-top :2em;
+    padding : 0.5em;
+    height: 40px;
+    width: 188px;
+    border: 3px solid black;
+}
+
+input[type=text]{
+    border: 2px solid black;
+    
+    /* width: 100%; */
+    width: 500px;
+    padding : 1em;
+    /* box-sizing: border-box; */
+    /* margin-top: 1.2em; */
+    background-color: pink;
+    height : 5px;
+    color : black;
+    
+
+}

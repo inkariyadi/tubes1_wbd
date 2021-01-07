@@ -1,0 +1,82 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: black;
+    color: pink;
+}
+
+#content{
+    padding: 2em;
+}
+
+table {
+    border: 3px solid pink;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top : 3em
+   
+}
+
+th{
+    border-bottom: 3px solid pink;
+    text-align: left;
+}
+
+th, td{
+    padding : 1em;
+}
+
+tr.history-item:hover{
+    color: black;
+    background: pink;
+}
+
+
+nav{
+    display:flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    background-color: pink;
+    /* background-color : black; */
+    /* min-height: 4vh; */
+
+    /* width:100%;
+    box-sizing: border-box; */
+}
+.nav-links a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration : none;
+    letter-spacing : 0.2em;
+}
+
+.nav-links li{
+    display: inline;
+    margin : 0 0.75em;
+    margin : 1em 2em 3em 4em;
+    list-style-type: none; 
+}
+
+input[type=text]{
+    border: 2px solid black;
+    
+    /* width: 100%; */
+    width: 500px;
+    padding : 1em;
+    /* box-sizing: border-box; */
+    /* margin-top: 1.2em; */
+    background-color: pink;
+    height : 5px;
+    color : black;
+    
+
+}
+
+#search-button{
+    background-color: transparent;
+    border: none;
+}
+

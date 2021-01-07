@@ -1,0 +1,98 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: pink;
+}
+
+.container{
+    /* width : 100%; */
+    
+    padding : 5em 2em;
+    
+    margin: 10em 0em;
+    /* margin : 10em 28em 10em 28em; */
+    background-color: black;
+    color : pink;
+    border-style: white solid;
+    text-align : center;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+form p {
+    text-transform: uppercase;
+    margin : 0.5em;
+    margin-top: 2em;
+    letter-spacing: 2px;
+    /* text-align : left; */
+    
+}
+a {
+    margin-top:1em;
+    color: pink;
+  }
+a:hover{
+    color:white;
+}
+
+input[type=text]{
+    border: 3px solid pink;
+    
+    /* width: 100%; */
+    width: 150px;
+    padding : 1em;
+    /* box-sizing: border-box; */
+    /* margin-top: 1.2em; */
+    background-color: black;
+    height : 5px;
+    color : pink;
+    
+
+}
+
+input[type=password]{
+    border: 3px solid pink;
+    
+    /* width: 100%; */
+    width: 150px;
+    padding : 1em;
+    /* box-sizing: border-box; */
+    /* margin-top: 1.2em; */
+    background-color: black;
+    height : 5px;
+    color : pink;
+    
+
+}
+
+input[type=submit]{
+    letter-spacing: 2px;
+    font-style: bold;
+    background-color: pink;
+    text-transform: uppercase;
+    color : black;
+    margin-top :2em;
+    padding : 0.5em;
+    height: 40px;
+    width: 188px;
+    border: 3px solid black;
+}
+
+input[type=email]{
+    border: 3px solid pink;
+    
+    /* width: 100%; */
+    width: 150px;
+    padding : 1em;
+    /* box-sizing: border-box; */
+    /* margin-top: 1.2em; */
+    background-color: black;
+    height : 5px;
+    color : pink;
+    
+
+}

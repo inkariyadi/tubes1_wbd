@@ -1,0 +1,229 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+nav{
+    top: 0;
+    display:flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    background-color: pink;
+    position: fixed;
+    /* background-color : black; */
+    /* min-height: 4vh; */
+
+    /* width:100%;
+    box-sizing: border-box; */
+}
+.nav-links a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration : none;
+    letter-spacing : 0.2em;
+}
+
+.nav-links li{
+    display: inline;
+    margin : 0 0.75em;
+    margin : 1em 2em 3em 4em;
+    list-style-type: none; 
+    
+
+  
+
+}
+
+.search{
+    text-align:center
+}
+
+.cool-link::after{
+    /* content: ' ';
+    display: block;
+    width:0;
+    height: 1px;
+    background: black;
+    transition: width .3s; */
+    color: white;
+}
+
+.cool-link:hover::after{
+    /* width: 50%;
+    transition: width .3s; */
+    color : white;
+}
+
+table {
+    width: 100%;
+    /* border: 3px solid pink; */
+    margin-top:3em;
+    margin-bottom: 0;
+
+   
+}
+th{
+    padding : 0 2em;
+    margin-bottom: -0.5em;
+}
+
+
+#hello{
+    color:pink;
+    text-align:left;
+    /* padding:0em; */
+    
+    
+    /* margin-bottom: -2em; */
+    
+    
+}
+#view{
+    color:white;
+    /* display: inline-block; */
+    text-align: right;
+    text-decoration: none;
+}
+
+.row {
+    /* display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    height: auto;
+    margin-left: 2em; */
+    padding: 1em;
+  }
+
+
+.group{
+    padding : 1em 1em;
+    float:left;
+    width: 25%;
+}
+  
+  /* Create four equal columns that sits next to each other */
+.column {
+    /* width:275px; */
+    /* height: auto; */
+    background-color: black;
+    border: 3px solid pink;
+    text-align: center;
+    /* margin : 1em; */
+    color : black;
+}
+
+.column:hover{
+    background-color: pink;
+    color : black;
+}
+
+.column p{
+    color:pink;
+
+}
+.column:hover p{
+    color:black;
+     
+}
+
+.column img {
+    
+    width: 100%;
+    /* height: auto; */
+    /* margin-top: 8px; */
+    /* vertical-align: middle; */
+    object-fit: cover;
+    /* width: 100%; */
+}
+p{
+    color:pink;
+}
+
+a{
+    text-decoration: none;
+    color: pink;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+
+input[type=text]{
+    border: 2px solid black;
+    
+    /* width: 100%; */
+    width: 500px;
+    padding : 1em;
+    /* box-sizing: border-box; */
+    /* margin-top: 1.2em; */
+    background-color: pink;
+    height : 5px;
+    color : black;
+    
+
+}
+
+button{
+    background-color: black;
+    padding:0;
+    margin:0;
+    font-family: roboto;
+    border: none;
+    text-decoration: none;
+    color:pink;
+}
+
+button:hover {
+    background-color : pink;
+    color:black;
+}
+button h3{
+    color : pink;
+    font-size : 1.5em;
+
+}
+button h3:hover{
+    color : black;
+
+}
+#choco-name{
+    font-size:1.5em;
+    text-transform: uppercase;
+    text-transform: bold;
+}
+button p{
+    font-size:1.2em;
+}
+button img {
+    
+    width: 100%;
+    /* height: auto; */
+    /* margin-top: 8px; */
+    /* vertical-align: middle; */
+    object-fit: cover;
+    /* width: 100%; */
+}
+
+
+
+@media only screen and (max-width:1200px){
+    .group{
+        width: 50%;
+
+    }
+    
+}
+@media only screen and (max-width:600px){
+    .group{
+        width: 100%;
+
+    }
+}
